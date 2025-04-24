@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="71" height="42" viewBox="0 0 71 42">
+  <defs>
+    <clipPath id="clip-Custom_Size_1">
+      <rect width="71" height="42"/>
+    </clipPath>
+  </defs>
+  <g id="Custom_Size_1" data-name="Custom Size – 1" clip-path="url(#clip-Custom_Size_1)">
+    <rect width="71" height="42" fill="#fff"/>
+    <g id="Menu_Icon_Product_Info" data-name="Menu Icon_Product Info" transform="translate(-6724 -2085.344)">
+      <path id="Path_1550" data-name="Path 1550" d="M134.889,3.792a1.9,1.9,0,0,0-.1-3.792h-9.5a1.9,1.9,0,0,0-.1,3.792c-.593,5.367-2.753,5.72-2.753,11.118V26.3a2.855,2.855,0,0,0,2.851,2.851h9.5a2.855,2.855,0,0,0,2.851-2.851V14.91C137.642,9.5,135.484,9.172,134.889,3.792Zm-5.471,7.958a6.445,6.445,0,0,0-4.36-1.026,12.465,12.465,0,0,1,.6-1.429A16.818,16.818,0,0,0,127.1,3.8h5.877A16.816,16.816,0,0,0,134.416,9.3a12.521,12.521,0,0,1,.794,2.008C134.513,11.65,132.225,13.622,129.418,11.75Z" transform="translate(6625.565 2091.344)" fill="#152a3f"/>
+      <path id="Path_1551" data-name="Path 1551" d="M231.87,224a7.87,7.87,0,1,0,7.87,7.87A7.879,7.879,0,0,0,231.87,224Z" transform="translate(6531.338 1881.917)" fill="#152a3f"/>
+      <path id="Path_1552" data-name="Path 1552" d="M230.542,224a6.542,6.542,0,1,0,6.542,6.542A6.55,6.55,0,0,0,230.542,224Zm.969,9.208a.969.969,0,0,1-1.938,0v-3.392a.969.969,0,0,1,1.938,0Zm-.969-4.846a.969.969,0,1,1,.969-.969A.97.97,0,0,1,230.542,228.362Z" transform="translate(6532.666 1883.229)" fill="#fafafa"/>
+    </g>
+  </g>
+</svg>

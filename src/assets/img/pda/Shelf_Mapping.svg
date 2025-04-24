@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="71" height="42" viewBox="0 0 71 42">
+  <defs>
+    <clipPath id="clip-Custom_Size_1">
+      <rect width="71" height="42"/>
+    </clipPath>
+  </defs>
+  <g id="Custom_Size_1" data-name="Custom Size – 1" clip-path="url(#clip-Custom_Size_1)">
+    <rect width="71" height="42" fill="#fff"/>
+    <g id="Menu_Icon_Shelf_Mapping" data-name="Menu Icon_Shelf Mapping" transform="translate(-6723.83 -2459.77)">
+      <path id="Path_870" data-name="Path 870" d="M69.709,0V1.535H51.927V0H49.951V25.167h1.976V23.633H69.709v1.535h1.976V0Zm0,17.494H51.927V15.653H69.709v1.841Zm0-7.98H51.927V7.673H69.709V9.514Z" transform="translate(6690.879 2467.77)" fill="#152a3f"/>
+      <rect id="Rectangle_5015" data-name="Rectangle 5015" width="21.84" height="10.801" transform="translate(6754.527 2483.838)" fill="#152a3f"/>
+      <path id="사각형_5015_-_윤곽선" data-name="사각형 5015 - 윤곽선" d="M-.348-.348v10.8h21.84V-.348H-.348m0-.652h21.84a.652.652,0,0,1,.652.652v10.8a.652.652,0,0,1-.652.652H-.348A.652.652,0,0,1-1,10.454V-.348A.652.652,0,0,1-.348-1Z" transform="translate(6754.875 2484.186)" fill="#fafafa"/>
+      <rect id="Rectangle_5016" data-name="Rectangle 5016" width="15.735" height="7.601" transform="translate(6757.433 2485.438)" fill="#fff"/>
+      <rect id="Rectangle_5017" data-name="Rectangle 5017" width="0.8" height="2" rx="0.4" transform="translate(6774.367 2488.238)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="71" height="42" viewBox="0 0 71 42">
+  <defs>
+    <clipPath id="clip-Custom_Size_1">
+      <rect width="71" height="42"/>
+    </clipPath>
+  </defs>
+  <g id="Custom_Size_1" data-name="Custom Size – 1" clip-path="url(#clip-Custom_Size_1)">
+    <rect width="71" height="42" fill="#fff"/>
+    <g id="Menu_Icon_Blinking_by_Label" data-name="Menu Icon_Blinking by Label" transform="translate(-6723.053 -2207.219)">
+      <rect id="Rectangle_4985" data-name="Rectangle 4985" width="33.485" height="16.561" transform="translate(6740.053 2220.219)" fill="#152a3f"/>
+      <rect id="Rectangle_4986" data-name="Rectangle 4986" width="24.124" height="11.654" transform="translate(6744.507 2222.672)" fill="#fff"/>
+      <rect id="Rectangle_4987" data-name="Rectangle 4987" width="1.227" height="3.067" rx="0.613" transform="translate(6770.471 2226.965)" fill="#fff"/>
+      <line id="Line_849" data-name="Line 849" y1="1.227" x2="1.227" transform="matrix(0.951, 0.309, -0.309, 0.951, 6775.903, 2224.528)" fill="none" stroke="#152a3f" stroke-linecap="round" stroke-width="1"/>
+      <line id="Line_852" data-name="Line 852" x2="1.227" y2="1.227" transform="matrix(0.951, -0.309, 0.309, 0.951, 6775.524, 2231.01)" fill="none" stroke="#152a3f" stroke-linecap="round" stroke-width="1"/>
+      <path id="Path_1784" data-name="Path 1784" d="M0,0H1.577" transform="translate(6776.282 2228.545)" fill="none" stroke="#152a3f" stroke-linecap="round" stroke-width="1"/>
+      <rect id="Rectangle_4988" data-name="Rectangle 4988" width="1.781" height="5.344" transform="translate(6748.287 2225.706)" fill="#152a3f"/>
+      <rect id="Rectangle_4989" data-name="Rectangle 4989" width="0.891" height="5.344" transform="translate(6750.959 2225.706)" fill="#152a3f"/>
+      <rect id="Rectangle_4990" data-name="Rectangle 4990" width="0.891" height="5.344" transform="translate(6752.741 2225.706)" fill="#152a3f"/>
+      <rect id="Rectangle_4994" data-name="Rectangle 4994" width="0.891" height="5.344" transform="translate(6761.648 2225.706)" fill="#152a3f"/>
+      <rect id="Rectangle_4995" data-name="Rectangle 4995" width="1.781" height="5.344" transform="translate(6763.43 2225.706)" fill="#152a3f"/>
+      <rect id="Rectangle_4991" data-name="Rectangle 4991" width="0.891" height="5.344" transform="translate(6754.522 2225.706)" fill="#152a3f"/>
+      <rect id="Rectangle_4992" data-name="Rectangle 4992" width="1.781" height="5.344" transform="translate(6756.304 2225.706)" fill="#152a3f"/>
+      <rect id="Rectangle_4993" data-name="Rectangle 4993" width="1.781" height="5.344" transform="translate(6758.976 2225.706)" fill="#152a3f"/>
+    </g>
+  </g>
+</svg>

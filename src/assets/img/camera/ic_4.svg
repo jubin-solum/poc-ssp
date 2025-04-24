@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30" height="30" viewBox="0 0 30 30">
+  <defs>
+    <clipPath id="clip-iPhone_14_Pro_5">
+      <rect width="30" height="30"/>
+    </clipPath>
+  </defs>
+  <g id="iPhone_14_Pro_5" data-name="iPhone 14 Pro – 5" clip-path="url(#clip-iPhone_14_Pro_5)">
+    <g id="noun-add-selection-4942632" transform="translate(-14.342 -14.342)">
+      <path id="Path_9869" data-name="Path 9869" d="M42.311,17H39.933a.823.823,0,0,0,0,1.646h2.378a1.646,1.646,0,0,1,1.646,1.646v2.378a.823.823,0,0,0,1.646,0V20.291A3.291,3.291,0,0,0,42.311,17Z" transform="translate(-3.918)" stroke="#000" stroke-width="1"/>
+      <path id="Path_9870" data-name="Path 9870" d="M45.823,28.11a.823.823,0,0,0-.823.823v4.756a.823.823,0,0,0,1.646,0V28.933A.823.823,0,0,0,45.823,28.11Z" transform="translate(-4.962 -1.969)"/>
+      <path id="Path_9871" data-name="Path 9871" d="M44.779,39.11a.823.823,0,0,0-.823.823v2.378a1.646,1.646,0,0,1-1.646,1.646H39.933a.823.823,0,0,0,0,1.646h2.378A3.291,3.291,0,0,0,45.6,42.311V39.933A.823.823,0,0,0,44.779,39.11Z" transform="translate(-3.918 -3.918)" stroke="#000" stroke-width="1"/>
+      <path id="Path_9872" data-name="Path 9872" d="M33.688,45H28.933a.823.823,0,1,0,0,1.646h4.756a.823.823,0,0,0,0-1.646Z" transform="translate(-1.969 -4.962)"/>
+      <path id="Path_9873" data-name="Path 9873" d="M22.669,43.956H20.291a1.646,1.646,0,0,1-1.646-1.646V39.933a.823.823,0,0,0-1.646,0v2.378A3.291,3.291,0,0,0,20.291,45.6h2.378a.823.823,0,0,0,0-1.646Z" transform="translate(0 -3.918)" stroke="#000" stroke-width="1"/>
+      <path id="Path_9874" data-name="Path 9874" d="M17.823,34.511a.823.823,0,0,0,.823-.823V28.933a.823.823,0,0,0-1.646,0v4.756A.823.823,0,0,0,17.823,34.511Z" transform="translate(0 -1.969)"/>
+      <path id="Path_9875" data-name="Path 9875" d="M17.823,23.492a.823.823,0,0,0,.823-.823V20.291a1.646,1.646,0,0,1,1.646-1.646h2.378a.823.823,0,0,0,0-1.646H20.291A3.291,3.291,0,0,0,17,20.291v2.378A.823.823,0,0,0,17.823,23.492Z" stroke="#000" stroke-width="1"/>
+      <path id="Path_9876" data-name="Path 9876" d="M28.933,18.646h4.756a.823.823,0,0,0,0-1.646H28.933a.823.823,0,0,0,0,1.646Z" transform="translate(-1.969)"/>
+      <path id="Path_9877" data-name="Path 9877" d="M37.165,30.582a.823.823,0,0,0-.823-.823H31.405V24.823a.823.823,0,1,0-1.646,0v4.937H24.823a.823.823,0,0,0,0,1.646h4.937v4.937a.823.823,0,0,0,1.646,0V31.405h4.937A.823.823,0,0,0,37.165,30.582Z" transform="translate(-1.241 -1.241)"/>
+    </g>
+  </g>
+</svg>

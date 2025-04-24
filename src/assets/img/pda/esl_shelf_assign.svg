@@ -1,0 +1,19 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 39 26" width="39" height="26">
+	<title>shelf_assign-svg</title>
+	<style>
+		.s0 { fill: #001e38 } 
+	</style>
+	<g id="noun-shelf-5834636">
+		<g id="Group_1776">
+			<path id="Rectangle_138" class="s0" d="m17 7.6h3v10.7h-3z"/>
+			<path id="Rectangle_139" class="s0" d="m17 3h3v3.1h-3z"/>
+			<path id="Path_2" class="s0" d="m26.5 4q0-0.2-0.1-0.4-0.1-0.2-0.3-0.3-0.1-0.1-0.4-0.2-0.2-0.1-0.4-0.1h-3.6v3.1h4.8z"/>
+			<path id="Path_3" class="s0" d="m7 19.9v2.3q0 0.1 0.1 0.3 0 0.1 0.2 0.2 0.1 0.1 0.2 0.2 0.2 0 0.4 0h21.2q0.2 0 0.4 0 0.1-0.1 0.2-0.2 0.2-0.1 0.2-0.2 0.1-0.2 0.1-0.3v-2.3z"/>
+			<path id="Path_4" class="s0" d="m15.3 3h-3.6q-0.2 0-0.4 0.1-0.2 0.1-0.4 0.2-0.2 0.1-0.3 0.3-0.1 0.2-0.1 0.4v2.1h4.8z"/>
+			<path id="Rectangle_140" class="s0" d="m10.5 7.6h4.8v7.7h-4.8z"/>
+			<path id="Rectangle_141" class="s0" d="m10.5 16.8h4.8v1.5h-4.8z"/>
+			<path id="Rectangle_142" class="s0" d="m21.7 7.6h4.8v7.7h-4.8z"/>
+			<path id="Rectangle_143" class="s0" d="m21.7 16.8h4.8v1.5h-4.8z"/>
+		</g>
+	</g>
+</svg>

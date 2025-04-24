@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="71" height="42" viewBox="0 0 71 42">
+  <defs>
+    <clipPath id="clip-Custom_Size_1">
+      <rect width="71" height="42"/>
+    </clipPath>
+  </defs>
+  <g id="Custom_Size_1" data-name="Custom Size – 1" clip-path="url(#clip-Custom_Size_1)">
+    <rect width="71" height="42" fill="#fff"/>
+    <g id="Menu_Icon_Picking" data-name="Menu Icon_Picking" transform="translate(-6506.223 -2399.368)">
+      <circle id="Ellipse_306" data-name="Ellipse 306" cx="2.717" cy="2.717" r="2.717" transform="translate(6537.194 2427.2)" fill="#152a3f"/>
+      <circle id="Ellipse_307" data-name="Ellipse 307" cx="2.717" cy="2.717" r="2.717" transform="translate(6545.297 2427.2)" fill="#152a3f"/>
+      <path id="Path_1800" data-name="Path 1800" d="M.835,32.462H4.316l4.03,12.347-.316.553c-.832,1.455.376,3.172,2.24,3.172H24.32a.737.737,0,1,0,0-1.461H10.27a.74.74,0,0,1-.747-1.057l.231-.4H24.32a.827.827,0,0,0,.8-.53l3.339-10.228a.66.66,0,0,0-.136-.641.883.883,0,0,0-.667-.29H6.529l-.781-2.392a.828.828,0,0,0-.8-.53H.835a.737.737,0,1,0,0,1.461Z" transform="translate(6527.223 2377.367)" fill="#152a3f"/>
+    </g>
+  </g>
+</svg>

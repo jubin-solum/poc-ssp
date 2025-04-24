@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="71" height="42" viewBox="0 0 71 42">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_5052" data-name="Rectangle 5052" width="71" height="42"/>
+    </clipPath>
+  </defs>
+  <g id="ic_newton_eye_cmra" clip-path="url(#clip-path)">
+    <g id="iPhone_14_Pro_5" data-name="iPhone 14 Pro – 5" clip-path="url(#clip-path)">
+      <g id="noun-camera-1083348" transform="translate(18 7.227)">
+        <g id="Group_23771" data-name="Group 23771" transform="translate(0 2.5)">
+          <path id="Path_9973" data-name="Path 9973" d="M25.364,5.318H8.455V3.909A1.515,1.515,0,0,0,7.046,2.5H4.227A1.412,1.412,0,0,0,2.818,3.909V5.318A2.826,2.826,0,0,0,0,8.136V22.227a2.826,2.826,0,0,0,2.818,2.818H25.364a2.826,2.826,0,0,0,2.818-2.818V8.136A2.826,2.826,0,0,0,25.364,5.318ZM4.227,10.955A1.515,1.515,0,0,1,2.818,9.546a1.515,1.515,0,0,1,1.409-1.41,1.515,1.515,0,0,1,1.409,1.41,1.515,1.515,0,0,1-1.409,1.409Zm13.81,11.272a6.977,6.977,0,1,1,5-2.043,7.046,7.046,0,0,1-5,2.043Z" transform="translate(0 -2.5)" fill="#152a3f"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="71" height="42" viewBox="0 0 71 42">
+  <defs>
+    <clipPath id="clip-Custom_Size_1">
+      <rect width="71" height="42"/>
+    </clipPath>
+  </defs>
+  <g id="Custom_Size_1" data-name="Custom Size – 1" clip-path="url(#clip-Custom_Size_1)">
+    <rect width="71" height="42" fill="#fff"/>
+    <g id="Menu_Icon_LCD_List" data-name="Menu Icon_LCD List" transform="translate(-7198.031 -1522)">
+      <path id="Path_1715" data-name="Path 1715" d="M15.215,0H4.26A4.26,4.26,0,0,0,0,4.26V15.214a4.26,4.26,0,0,0,4.26,4.26H15.215a4.26,4.26,0,0,0,4.26-4.26V4.26A4.26,4.26,0,0,0,15.215,0Z" transform="translate(7245.752 1536.844)" fill="#152a3f"/>
+      <g id="Rectangle_4896" data-name="Rectangle 4896" transform="translate(7201.031 1528)" fill="none" stroke="#152a3f" stroke-width="3">
+        <rect width="58.279" height="17.576" rx="1" stroke="none"/>
+        <rect x="1.5" y="1.5" width="55.279" height="14.576" rx="0.5" fill="none"/>
+      </g>
+      <text id="LCD" transform="translate(7224.171 1539.288)" fill="#152a3f" font-size="7" font-family="SourceSansPro-Black, Source Sans Pro" font-weight="800"><tspan x="0" y="0">LCD</tspan></text>
+      <path id="Path_1710" data-name="Path 1710" d="M16.571,0H4.64A4.64,4.64,0,0,0,0,4.64V16.57a4.64,4.64,0,0,0,4.64,4.64H16.571a4.64,4.64,0,0,0,4.64-4.64V4.64A4.64,4.64,0,0,0,16.571,0Zm3.314,16.57a3.314,3.314,0,0,1-3.314,3.314H4.64A3.314,3.314,0,0,1,1.326,16.57V4.64A3.314,3.314,0,0,1,4.64,1.326H16.571A3.314,3.314,0,0,1,19.886,4.64Z" transform="translate(7244.883 1535.976)" fill="#fafafa"/>
+      <path id="Path_1711" data-name="Path 1711" d="M114.064,112h-1.376a.688.688,0,0,0-.688.688v1.376a.688.688,0,0,0,.688.688h1.376a.688.688,0,0,0,.688-.688v-1.376A.688.688,0,0,0,114.064,112Z" transform="translate(7137.296 1428.39)" fill="#fff"/>
+      <path id="Path_1712" data-name="Path 1712" d="M114.064,224h-1.376a.688.688,0,0,0-.688.688v1.376a.688.688,0,0,0,.688.688h1.376a.688.688,0,0,0,.688-.688v-1.376A.688.688,0,0,0,114.064,224Z" transform="translate(7137.296 1321.205)" fill="#fff"/>
+      <path id="Path_1713" data-name="Path 1713" d="M114.064,336h-1.376a.688.688,0,0,0-.688.688v1.376a.688.688,0,0,0,.688.688h1.376a.688.688,0,0,0,.688-.688v-1.376A.688.688,0,0,0,114.064,336Z" transform="translate(7137.296 1214.021)" fill="#fff"/>
+      <rect id="Rectangle_4860" data-name="Rectangle 4860" width="8.239" height="1.358" rx="0.679" transform="translate(7253.406 1541.059)" fill="#fff"/>
+      <rect id="Rectangle_4861" data-name="Rectangle 4861" width="8.239" height="1.448" rx="0.724" transform="translate(7253.406 1545.857)" fill="#fff"/>
+      <rect id="Rectangle_4862" data-name="Rectangle 4862" width="8.239" height="1.358" rx="0.679" transform="translate(7253.406 1550.745)" fill="#fff"/>
+    </g>
+  </g>
+</svg>
