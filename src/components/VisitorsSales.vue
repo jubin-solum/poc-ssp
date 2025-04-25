@@ -1,140 +1,151 @@
 <template>
-  <div>
-    <v-container fluid class="ma-4 pa-2">
-    <v-row>
-      <v-col class="pa-0 pb-2">
-        <div>
-          <span class="text-caption font-weight-black">Visitor Trends</span>
-        </div>
-      </v-col>
-    </v-row>
-
-    <v-row class="ga-4">
-      <v-col class="pa-0">
-        <div class="chart-wrapper">
-          <Bar :data="chartData" :options="chartOptions" />
-        </div>
-      </v-col>
-    </v-row>
-  </v-container>
-  </div>
+  <apexchart
+    height="350"
+    type="line"
+    :options="chartOptions"
+    :series="series"
+  />
 </template>
 
 <script setup>
-import { Bar } from "vue-chartjs";
-import {
-  Chart as ChartJS,
-  Title,
-  Tooltip,
-  Legend,
-  BarElement,
-  LineElement,
-  PointElement,
-  CategoryScale,
-  LinearScale,
-} from "chart.js";
+import { ref } from 'vue';
 
-// Register Chart.js components
-ChartJS.register(
-  Title,
-  Tooltip,
-  Legend,
-  BarElement,
-  LineElement,
-  PointElement,
-  CategoryScale,
-  LinearScale
-);
+const series = ref([
+  {
+    name: 'Visitors',
+    type: 'column',
+    data: [440, 505, 414, 671, 227, 413, 201, 352, 752, 320, 257, 160],
+  },
+  {
+    name: 'Sales',
+    type: 'line',
+    data: [
+      120, 145, 180, 220, 290, 150, 299, 100, 70, 200, 250, 200, 150, 80,
+    ],
+  },
+]);
 
-// Realistic Data for the mixed chart (bar + line)
-const chartData = {
+const chartOptions = ref({
+  chart: {
+    height: 350,
+    type: 'line',
+  },
+  colors: ['#2483B3', '#04B2B3'],
+  stroke: {
+    width: [0, 1.5],
+  },
+  title: {
+    text: 'Traffic Sources',
+  },
+  dataLabels: {
+    enabled: false,
+  },
+  markers: {
+    size: 4,
+    shape: 'circle',
+    fillOpacity: 0,
+    strokeColors: '#04B2B3',
+    strokeWidth: 1,
+  },
+  plotOptions: {
+    bar: {
+      columnWidth: '40%',
+    },
+  },
   labels: [
-    "9:00",
-    "10:00",
-    "11:00",
-    "12:00",
-    "13:00",
-    "14:00",
-    "15:00",
-    "16:00",
-    "17:00",
-    "18:00",
-    "19:00",
-    "20:00",
-    "21:00",
-    "22:00",
+    '9:00', '10:00', '11:00', '12:00', '13:00', '14:00', '15:00',
+    '16:00', '17:00', '18:00', '19:00', '20:00', '21:00', '22:00',
   ],
-  datasets: [
+  yaxis: [
     {
-      type: "bar",
-      label: "Visitors",
-      backgroundColor: "#2483B3",
-      data: [
-        120, 145, 180, 220, 290, 150, 299, 100, 70, 200, 250, 200, 150, 80,
-      ], // Visitors increasing through the day
-      borderRadius: 0,
-      barThickness: 10,
+      title: {
+        text: 'Visitors',
+      },
     },
     {
-      type: "line",
-      label: "Sales",
-      borderColor: "#04B2B3",
-      borderWidth: 2,
-      fill: false,
-      borderWidth: 1.3,
-      data: [30, 70, 110, 160, 230, 300, 150, 100, 50, 150, 100, 140, 230, 190], // Sales tend to increase with visitors
+      opposite: true,
+      title: {
+        text: 'Sales',
+      },
     },
   ],
-};
+  legend: {
+  position: 'top',
+  horizontalAlign: 'right',
+  markers: {
+    width: 12,
+    height: 12,
+    radius: 2,
+  },
+  itemMargin: {
+    horizontal: 10,
+    vertical: 5,
+  },
+  onItemClick: {
+    toggleDataSeries: true, // enables checkbox-like toggling
+  },
+  onItemHover: {
+    highlightDataSeries: true,
+  },
+},
 
-const chartOptions = {
-  responsive: true,
-  scales: {
-    x: {
-      grid: {
-        display: false, // Removes vertical grid lines
-      },
-    },
-    y: {
-      grid: {
-        display: true, // Horizontal grid lines remain visible
-      },
-      ticks: {
-        // Optional: Adjusting ticks to make the chart look better
-        stepSize: 200,
-        max: 1200,
-      },
-    },
-  },
-  plugins: {
-    // legend: {
-    //   position: 'top',
-    // },
-    legend: {
-      position: "top",
-      align: "end", // ← aligns legend to the right side
-      labels: {
-        boxWidth: 14, // Optional: size of the colored box
-        padding: 10, // Optional: spacing between items
-      },
-    },
-    title: {
-      display: false,
-      text: "Visitors vs Sales",
-      align: "end",
-    },
-  },
-};
+});
+
+// const chartOptions = ref({
+//   chart: {
+//     height: 350,
+//     type: 'line',
+//   },
+//   colors: ['#2483B3', '#04B2B3'], // Red for bars, Green for line
+//   stroke: {
+//     width: [0, 1.5],
+//   },
+//   title: {
+//     text: 'Traffic Sources',
+//   },
+//   dataLabels: {
+//     enabled: false, // Disable data labels
+//   },
+//   markers: {
+//     size: 4, // Marker size
+//     shape: 'circle', // Marker shape
+//     fillOpacity: 0, // Make markers hollow
+//     strokeColors: '#04B2B3', // Border color of markers (green)
+//     strokeWidth: 1, // Border width of markers
+//   },
+//   plotOptions: {
+//     bar: {
+//       columnWidth: '40%', // Adjust bar width
+//     },
+//   },
+//   labels: [
+//     '9:00',
+//     '10:00',
+//     '11:00',
+//     '12:00',
+//     '13:00',
+//     '14:00',
+//     '15:00',
+//     '16:00',
+//     '17:00',
+//     '18:00',
+//     '19:00',
+//     '20:00',
+//     '21:00',
+//     '22:00',
+//   ],
+//   yaxis: [
+//     {
+//       title: {
+//         text: 'Visitors',
+//       },
+//     },
+//     {
+//       opposite: true,
+//       title: {
+//         text: 'Sales',
+//       },
+//     },
+//   ],
+// });
 </script>
-
-<style scoped>
-.chart-wrapper {
-  width: 100%;
-  max-width: 100%;
-  height: auto;
-  position: relative;
-}
-.border-left-custom {
-  border-left: 1px solid var(--v-theme-secondary) !important;
-}
-</style>
