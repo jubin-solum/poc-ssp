@@ -35,7 +35,7 @@
             <v-col class="border py-2 px-3">Label Usage Status</v-col>
           </v-row>
           <v-row class="ga-4 mb-4">
-            <v-col class="border py-2 px-3">Label Update</v-col>
+            <v-col class="border py-2 px-3"><LabelUpdate /></v-col>
             <v-col class="border py-2 px-3">In Use Label Health Check</v-col>
           </v-row>
           <v-row class="ga-4 mb-4">

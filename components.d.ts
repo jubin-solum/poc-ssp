@@ -16,6 +16,7 @@ declare module 'vue' {
     DailyVisitors: typeof import('./src/components/DailyVisitors.vue')['default']
     DeviceInstallOverview: typeof import('./src/components/DeviceInstallOverview.vue')['default']
     HelloWorld: typeof import('./src/components/HelloWorld.vue')['default']
+    LabelUpdate: typeof import('./src/components/LabelUpdate.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
     VisitorsSales: typeof import('./src/components/VisitorsSales.vue')['default']

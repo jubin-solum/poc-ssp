@@ -1,134 +1,128 @@
 <template>
-  <!-- <div> -->
-    <v-container fluid class="">
-    <v-row>
-      <v-col class="pa-0 pb-2">
-        <div>
-          <span class="text-caption font-weight-black">Visitor Trends</span>
-        </div>
-      </v-col>
-    </v-row>
-
-    <v-row class="ga-4">
-      <v-col class="pa-0">
-        <div>
-          <Bar :data="chartData" :options="chartOptions" />
-        </div>
-      </v-col>
-    </v-row>
-  </v-container>
-  <!-- </div> -->
+  <apexchart
+    height="350"
+    type="line"
+    :options="chartOptions"
+    :series="series"
+  />
 </template>
 
 <script setup>
-import { Bar } from "vue-chartjs";
-import {
-  Chart as ChartJS,
-  Title,
-  Tooltip,
-  Legend,
-  BarElement,
-  LineElement,
-  PointElement,
-  CategoryScale,
-  LinearScale,
-} from "chart.js";
+import { ref } from 'vue';
 
-// Register Chart.js components
-ChartJS.register(
-  Title,
-  Tooltip,
-  Legend,
-  BarElement,
-  LineElement,
-  PointElement,
-  CategoryScale,
-  LinearScale
-);
+const series = ref([
+  {
+    name: 'Visitors',
+    type: 'line',
+    data: [ 200, 250, 160, 240, 200, ],
+  },
+  {
+    name: 'Sales',
+    type: 'line',
+    data: [220, 190, 270, 220, 219, ],
+  },
+]);
 
-// Realistic Data for the mixed chart (bar + line)
-const chartData = {
+const chartOptions = ref({
+  chart: {
+    height: 350,
+    type: 'line',
+    zoom: {
+      enabled: false,
+    },
+    toolbar: {
+      show: false,
+    },
+  },
+  colors: ['#2483B3', '#04B2B3'],
+  stroke: {
+    width: 2,
+    curve: 'smooth',
+  },
+  title: {
+    text: 'Visitors Trend',
+    style: {
+      fontSize: '12px',
+      fontWeight: 'bold',
+      color: '#333',
+    },
+  },
+  dataLabels: {
+    enabled: false,
+  },
+  markers: {
+    size: 3.5,
+    shape: 'circle',
+    fillOpacity: 1,
+    colors: ['white'],
+    strokeColors: '#04B2B3',
+    strokeWidth: 1.5,
+  },
   labels: [
-    "9:00",
-    "10:00",
-    "11:00",
-    "12:00",
-    "13:00",
-    "14:00",
-    "15:00",
-    "16:00",
-    "17:00",
-    "18:00",
-    "19:00",
-    "20:00",
-    "21:00",
-    "22:00",
+    'Mar 24(M)', 'Mar 25(T)', 'Jun 2(M)', 'Jun 4(W)', 'Aug 2(M)',
   ],
-  datasets: [
-    {
-      type: "bar",
-      label: "Visitors",
-      backgroundColor: "#2483B3",
-      data: [
-        120, 145, 180, 220, 290, 150, 299, 100, 70, 200, 250, 200, 150, 80,
-      ], // Visitors increasing through the day
-      borderRadius: 0,
-      barThickness: 10,
+  xaxis: {
+    labels: {
+      show: true,
     },
-    {
-      type: "line",
-      label: "Sales",
-      borderColor: "#04B2B3",
-      borderWidth: 2,
-      fill: false,
-      borderWidth: 1.3,
-      data: [30, 70, 110, 160, 230, 300, 150, 100, 50, 150, 100, 140, 230, 190], // Sales tend to increase with visitors
+    axisTicks: {
+      show: false,
     },
-  ],
-};
-
-const chartOptions = {
-  responsive: true,
-  scales: {
-    x: {
-      grid: {
-        display: false, // Removes vertical grid lines
-      },
-    },
-    y: {
-      grid: {
-        display: true, // Horizontal grid lines remain visible
-      },
-      ticks: {
-        // Optional: Adjusting ticks to make the chart look better
-        stepSize: 200,
-        max: 1200,
-      },
+    axisBorder: {
+      show: true,
     },
   },
-  plugins: {
-    // legend: {
-    //   position: 'top',
-    // },
-    legend: {
-      position: "top",
-      align: "end", // ← aligns legend to the right side
+  yaxis: [
+    {
+      title: {
+        text: 'Visitors',
+      },
+      opposite: true, // Move 'Visitors' axis to the right
+    },
+    {
+      title: {
+        text: 'Sales',
+      },
+      opposite: false, // Move 'Sales' axis to the left
       labels: {
-        boxWidth: 14, // Optional: size of the colored box
-        padding: 10, // Optional: spacing between items
+        formatter: function (value) {
+          const customValues = {
+            0: '0',
+            50: '2k',
+            100: '3k',
+            150: '5k',
+            200: '6k',
+            250: '7k',
+            300: '8k',
+            350: '9k',
+            400: '10k',
+            450: '11k',
+            500: '12k',
+          };
+          return customValues[value] || value;
+        },
       },
     },
-    title: {
-      display: false,
-      text: "Visitors vs Sales",
-      align: "end",
+  ],
+  legend: {
+    position: 'top',
+    horizontalAlign: 'right',
+    markers: {
+      width: 12,
+      height: 12,
+      radius: 0,
+    },
+    itemMargin: {
+      horizontal: 10,
+      vertical: 5,
+    },
+    onItemClick: {
+      toggleDataSeries: true,
+    },
+    onItemHover: {
+      highlightDataSeries: true,
     },
   },
-};
-</script>
+});
 
-<style scoped>
-.border-left-custom {
-  border-left: 1px solid var(--v-theme-secondary) !important;
-}
-</style>
+</script>
