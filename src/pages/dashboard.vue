@@ -7,7 +7,6 @@
 
         <!-- Main section title -->
         <v-col cols="12" class="border pa-2">
-          <!-- Device Installation Overview -->
           <DeviceInstallOverview />
         </v-col>
 
@@ -15,22 +14,24 @@
         <v-col cols="12">
           <v-row class="ga-4 mb-4">
             <v-col class="border pa-0">
-              <!-- Daily Visitor -->
               <DailyVisitors />
             </v-col>
             <v-col class="border pa-0">
-              <!-- Daily Sales -->
               <DailySales />
             </v-col>
           </v-row>
-          <v-row class="ga-4 mb-4">
-            <v-col class="border py-2 px-3">Visitor Trends</v-col>
-            <v-col class="border py-2 px-3">Visitors & Sales Per Hour</v-col>
+          <v-row  class=" mb-4">
+             
+              <v-col col="6" class="border pa-2"> <VisitorTrends /> </v-col
+            > 
+              <v-col cols="6" class="border pa-2"> <VisitorsSales /></v-col
+            > 
           </v-row>
+
           <v-row class="ga-4 mb-4">
-            <v-col class="border py-2 px-3"
-              >Top 5 daily visitors by department</v-col
-            >
+            <v-col class="border py-2 px-3">
+              Top 5 daily visitors by department
+            </v-col>
             <v-col class="border py-2 px-3">Label Usage Status</v-col>
           </v-row>
           <v-row class="ga-4 mb-4">

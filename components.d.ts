@@ -9,7 +9,7 @@ export {}
 declare module 'vue' {
   export interface GlobalComponents {
     AppFooter: typeof import('./src/components/AppFooter.vue')['default']
-    copy: typeof import('./src/components/DeviceInstallOverview.vue')['default']
+    copy: typeof import('./src/components/VisitorTrends copy.vue')['default']
     Counter: typeof import('./src/components/Counter.vue')['default']
     DailySales: typeof import('./src/components/DailySales.vue')['default']
     DailyVisitor: typeof import('./src./src/components/DailySales.vueault']
@@ -18,5 +18,7 @@ declare module 'vue' {
     HelloWorld: typeof import('./src/components/HelloWorld.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
+    VisitorsSales: typeof import('./src/components/VisitorsSales.vue')['default']
+    VisitorTrends: typeof import('./src/components/VisitorTrends.vue')['default']
   }
 }
